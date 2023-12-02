@@ -1,0 +1,80 @@
+.total
+{
+    margin: 25px 425px;
+    padding: 10px;
+    width: 650px;
+    background-color:black;  
+}
+
+.terminal{
+    color: rgb(0, 255, 247);
+    font-size: 60px;
+    padding: 10px;
+    text-align: right;
+
+}
+
+.bottom{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    column-gap: 50px;
+
+}
+
+
+
+.numbers{
+    display: grid;
+    grid-template-columns: 150px 150px 150px ;
+    column-gap: 15px;
+    row-gap: 10px;
+
+}
+
+.numbers button{
+    height:  150px;
+    border-radius: 50px;
+    border: none ;
+    background-color: rgba(40, 39, 37, 0.407);
+    color: white;
+    font-size: 40px;
+}
+
+.operators{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding:  20px 10px;
+}
+ 
+.operators button{
+    height: 90px;
+    width: 90px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(3, 83, 255, 0.953);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.underbottom{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    height: 70px;
+    padding: 10px;
+}
+
+.underbottom button{
+    flex: 2 1;
+    border-radius: 35px ;
+    background-color: rgba(3, 83, 255, 0.953);
+    border: none;
+    font-size: 30px;
+    color: white;
+}
+
+

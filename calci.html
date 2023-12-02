@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>calculator
+    </title>
+    <link rel="stylesheet" href="calci.css">
+</head>
+<body>
+    <p style="text-align: center; font-size: large; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">CALCULATOR</p>
+    <div class="total ">
+        <p class="terminal">0</p>
+        <div class="bottom">
+            <div class="numbers">  
+                <button onclick="add('1')">1</button>
+                <button  onclick="add('2')">2</button>
+                <button onclick="add('3')">3</button>
+                <button onclick="add('4')">4</button>
+                <button onclick="add('5')">5</button>
+                <button onclick="add('6')">6</button>
+                <button onclick="add('7')">7</button>
+                <button onclick="add('8')">8</button>
+                <button onclick="add('9')">9</button>
+            </div>
+
+            <div class="operators">   
+                <button onclick="add('+')">+</button>
+                <button onclick="add('-')">-</button>
+                <button onclick="add('*')">*</button>
+                <button onclick="add('/')">/</button>
+            </div>
+        </div>
+        <div class = "underbottom">       
+            <button onclick="add('0')">0</button>
+            <button onclick="result()">=</button>
+            <button onclick="ac()">AC</button>
+        </div>
+   </div>
+</body>
+
+
+
+<script src="calci.js"></script>
+</html>
